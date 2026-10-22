@@ -1,7 +1,9 @@
 {
   "expo": {
-    "name": "pe-trial",
+    "name": "BookShelf",
     "slug": "pe-trial",
+    "owner": "dinhloii",
+    "scheme": "bookshelf",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,6 +22,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-router"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "47af334d-003b-4fc1-9978-7278979bbfb1"
+      }
     }
   }
 }

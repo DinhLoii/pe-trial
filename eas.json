@@ -1,0 +1,32 @@
+{
+  "cli": {
+    "version": ">= 14.0.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_FIREBASE_API_KEY": "AIzaSyBozxM94iBpZCtSvzywxvqfDTeLxFebutM",
+        "EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN": "pe-trial-7d069.firebaseapp.com",
+        "EXPO_PUBLIC_FIREBASE_PROJECT_ID": "pe-trial-7d069",
+        "EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET": "pe-trial-7d069.firebasestorage.app",
+        "EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID": "745420148438",
+        "EXPO_PUBLIC_FIREBASE_APP_ID": "1:745420148438:web:f76856f4841e40148ec377",
+        "EXPO_PUBLIC_FIREBASE_MEASUREMENT_ID": "G-MZDYCLPES1"
+      }
+    },
+    "production": {
+      "autoIncrement": true
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

@@ -26,12 +26,18 @@ npm-debug.*
 yarn-debug.*
 yarn-error.*
 
-# macOS
+# macOS & Office temp files
 .DS_Store
 *.pem
+~$*.docx
+*.zip
+*.docx
 
 # local env files
+.env
 .env*.local
+.env.production
+!.env.example
 
 # typescript
 *.tsbuildinfo
